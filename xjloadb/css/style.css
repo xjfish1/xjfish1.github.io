@@ -1,0 +1,210 @@
+@charset "utf-8";
+body,
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+*::-webkit-scrollbar:vertical {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+*::-webkit-scrollbar:horizontal {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+img {
+    border: 0;
+}
+
+.wraper {
+    min-width: 304px;
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: white;
+}
+
+#icon {
+    width: 100%;
+    position: absolute;
+    top: 6%;
+}
+
+#gameicon {
+    text-align: center;
+    float: none;
+    width: 26%;
+    left: 37%;
+    position: absolute;
+}
+
+.fonttitle {
+    font-family: PingFangSC-Medium, sans-serif;
+    font-size: 24px;
+}
+
+#name {
+    width: 100%;
+    position: absolute;
+    top: 23%;
+}
+
+#gamename {
+    text-align: center;
+    float: none;
+    width: 100%;
+    position: absolute;
+}
+
+#ios {
+    width: 100%;
+    position: absolute;
+    top: 29.5%;
+}
+
+#gameios {
+    text-align: center;
+    float: none;
+    width: 34%;
+    left: 34.7%;
+    position: absolute;
+}
+
+#qrcode {
+    width: 100%;
+    position: absolute;
+    top: 34.5%;
+}
+
+#gameqrcode {
+    text-align: center;
+    float: none;
+    width: 28%;
+    left: 36%;
+    position: absolute;
+}
+
+#download {
+    width: 100%;
+    position: absolute;
+    top: 54%;
+}
+
+#gamedownload {
+    text-align: center;
+    float: none;
+    width: 41%;
+    left: 29.5%;
+    position: absolute;
+}
+
+#details {
+    width: 100%;
+    position: absolute;
+    top: 66%;
+}
+
+#gamedetails {
+    text-align: center;
+    float: none;
+    width: 92%;
+    left: 4%;
+    position: absolute;
+}
+
+#namesmall {
+    width: 100%;
+    position: absolute;
+    top: 69.5%;
+}
+
+#gamenamesmall {
+    text-align: center;
+    float: none;
+    width: 38%;
+    left: 4%;
+    position: absolute;
+}
+
+.about {
+    font-family: PingFangSC-Semibold, sans-serif;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.fontstyle {
+    font-family: PingFangSC-Light, sans-serif;
+    font-size: 1rem;
+    text-align: right;
+    color: #191919;
+}
+
+#size {
+    width: 100%;
+    position: absolute;
+    top: 76.2%;
+}
+
+#gamesize {
+    text-align: center;
+    float: none;
+    width: 50%;
+    right: 4%;
+    position: absolute;
+}
+
+#time {
+    width: 100%;
+    position: absolute;
+    top: 81.2%;
+}
+
+#gametime {
+    text-align: center;
+    float: none;
+    width: 50%;
+    right: 4%;
+    position: absolute;
+}
+
+#version {
+    width: 100%;
+    position: absolute;
+    top: 86.3%;
+}
+
+#gameversion {
+    text-align: center;
+    float: none;
+    width: 50%;
+    right: 4%;
+    position: absolute;
+}
